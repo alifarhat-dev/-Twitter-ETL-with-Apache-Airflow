@@ -3,10 +3,10 @@ import pandas as pd
 from datetime import datetime
 import s3fs
 import json
-access_key = "tkyx6Z3VnSnX9BIs27T5FjHvi"
-access_secret = "XDSAKfqBUwkpMYacQ2j5AFqY5bze6VBLZxdgLzBkMW8SAyLEJf"
-consumer_key = "1669471059937046528-02GGRC6BepLB4jF9EO4aWiqjY6crtT"
-consumer_secret = "Ok6a3RPljbrvgy8be9DHVgfaad2vEpHpV685ShxOjFS4Z"
+access_key = ""
+access_secret = ""
+consumer_key = ""
+consumer_secret = ""
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_key, access_secret)
 api = tweepy.API(auth)
